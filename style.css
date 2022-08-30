@@ -1,0 +1,16 @@
+/* styles de base */
+body, *, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 
+
+ *************** couleurs ****************
+noir:  #231f20;
+jaune: #FFC329;
+orange: #cb3837
+
+*/
