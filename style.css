@@ -14,3 +14,108 @@ jaune: #FFC329;
 orange: #cb3837
 
 */
+
+/*----------------Section 1------------------*/
+.sctn1
+{
+    display: block;
+    text-align: center;
+    background-image: linear-gradient( 270deg, rgba(176, 42, 42, .16) 0%, rgba(176, 42, 42, .56) 18.45%, rgba(176, 42, 42, .8) 49.67%, rgba(176, 42, 42, .56) 82.52%, rgba(176, 42, 42, .196364) 99.7%, rgba(189, 40, 40, 0) 99.71%, rgba(203, 56, 55, 0) 99.72%, rgba(203, 56, 55, .16) 99.73%), url('acceuil-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: transparent;
+    color: white;
+    padding-bottom: 5% ;
+    font-family: 'Poppins',sans-serif;
+    padding-top: 3%;
+}
+
+.sctn1 h1
+{
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.sctn1 h2
+{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+.sctn1 .bttn 
+{
+    display: flex;
+    margin-left: 350px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sctn1 #bttn1
+{
+    font-family: 'Poppins',sans-serif;
+    background: #FFC329;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 40%);
+    border: none;
+    border-radius: 50px;
+    color: #000000;
+    width: 250px;
+    height: 60px;
+}
+
+.sctn1 #bttn2
+{
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: #cb3837;
+    color: #FFFFFF;
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    margin-left: 50px;
+}
+
+/*-----------------Section 2-------------------*/
+.sctn2
+{
+    display: block;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 5%;
+    line-height: 1.5;
+    padding-bottom: 5%;
+}
+
+.sctn2 h1
+{
+    font-weight: 600;
+    font-size: 38px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.sctn2 p
+{
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+
+@media  screen and (max-width:529px) 
+{
+    .sctn1 .bttn 
+    {
+        display: block;
+        margin: 5px;
+    }
+
+    .sctn1 #bttn2 
+    {
+        margin-top: 3%;
+        margin-right: 10%;
+    }
+}
+
+/*-------------------Section 3-------------------*/
