@@ -15,8 +15,159 @@ orange: #cb3837
 
 */
 /*----------------header------------------*/
+header{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 
+}
+.colortop{
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(to right, orange, #ff5100 , #d828c8);
+}
+.header1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(192, 186, 186);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    font-size: 15px;
 
+    
+}
+.madness{
+    width: 30%;
+}
+.products{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 85%;
+}
+nav li{
+    text-decoration: none;
+    padding-left: 25px;
+    
+}
+li>a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    
+}
+
+.header2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    font-size: 15px;
+
+    
+}
+.npm{
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ultra', serif;
+    font-weight: bolder;
+    width: 15%;
+}
+.npm p{
+    font-weight: 900;
+    font-size: x-large;
+
+}
+.search{display: block;
+    width: 70%;
+    margin-left: -100px;
+    position: relative;
+
+}
+.btt{
+    display: flex;
+    padding-left: 40px;
+}
+.b1{
+    background-color: #ffffff;
+    height: 100%;
+    padding: 15px;
+    font-size: medium;
+    border: 1px solid rgb(202, 199, 199);
+    cursor: pointer;
+}
+.b2{
+    background-color: #ffffff;
+    height: 100%;
+    padding: 15px;
+    border: none;
+    padding-left: px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+ion-icon{
+    /* z-index: 5;
+    position: absolute;
+    left: 10%;
+    top: 18%; */
+    padding: 20px;
+    font-size: 20px;
+}
+.weur {
+    z-index: 0;
+    
+    padding-left: 0;
+    font-size: 17px;
+    border: 1px solid rgb(226, 223, 223);
+    border-radius: 2px 0 0 2px;
+    background: #f1f1f1;
+    display: grid;
+    grid-template-columns:90% 10%;
+  }
+  input[type=text]:focus, label:focus{
+    outline: 1px black solid;
+  }
+  input[type=text]{
+    border: 10px;
+    border-radius: 0;
+    padding-left:5% ;
+    background-color: transparent;
+  }
+  label{
+    position: absolute;
+  }
+
+  /* Style the submit button */
+  form.weur button {
+
+    /* width: 10%; */
+    padding: 15px;
+    background: #000000;
+    color: white;
+    font-size: 17px;
+    border: 1px solid black;
+    border-left: none; 
+    cursor: pointer;
+    outline: 1px black solid;
+  }
+  
+  form.weur button:hover {
+    background: #0b7dda;
+  }
+  
 
 
 /*----------------Section 1------------------*/
@@ -51,7 +202,7 @@ orange: #cb3837
 .sctn1 .bttn 
 {
     display: flex;
-    margin-left: 350px;
+    justify-content: center;
     text-decoration: none;
     text-align: center;
 }
