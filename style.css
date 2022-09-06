@@ -48,7 +48,7 @@ orange: #cb3837
 .sctn1 .bttn 
 {
     display: flex;
-    margin-left: 350px;
+    justify-content: center;
     text-decoration: none;
     text-align: center;
 }
@@ -111,11 +111,35 @@ orange: #cb3837
         margin: 5px;
     }
 
+    .sctn1 p 
+    {
+        font-size: 13px;
+    }
+
     .sctn1 #bttn2 
     {
         margin-top: 3%;
         margin-right: 10%;
     }
+
+    .sctn2 p
+    {
+        font-size: 10px;
+    }
 }
+
+@media  screen and (min-width:530px) and (max-width:680px)
+{
+    .sctn1 p 
+    {
+        font-size: 13px;
+    }
+    
+    .sctn2 p
+    {
+        font-size: 10px;
+    }
+}
+
 
 /*-------------------Section 3-------------------*/
